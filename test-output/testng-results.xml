@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-24T12:02:16 IST" name="Default suite" finished-at="2022-08-24T12:02:54 IST" duration-ms="38087">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:test_Runners.Amazon_Test@351d00c0]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-08-24T12:02:16 IST" name="Default test" finished-at="2022-08-24T12:02:54 IST" duration-ms="38087">
+      <class name="test_Runners.Amazon_Test">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:test_Runners.Amazon_Test@351d00c0]" started-at="2022-08-24T12:02:17 IST" name="setUpClass" finished-at="2022-08-24T12:02:18 IST" duration-ms="1499" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2712e8f4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:test_Runners.Amazon_Test@351d00c0]" started-at="2022-08-24T12:02:18 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-24T12:02:51 IST" duration-ms="32867" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Payment Functionality with valid credentails"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Amazon payment Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <span id="B01N6OOW52-amazons-choice-label" class="a-badge-label" data-a-badge-color="sx-gulfstream" aria-hidden="true">...</span> is not clickable at point (513, 580). Other element would receive the click: <img class="s-image" src="https://m.media-amazon.com/images/I/71YNDJVZ0uL._AC_UL320_.jpg" srcset="https://m.media-amazon.com/images/I/71YNDJVZ0uL._AC_UL320_.jpg 1x, https://m.media-amazon.com/images/I/71YNDJVZ0uL._AC_UL480_FMwebp_QL65_.jpg 1.5x, https://m.media-amazon.com/images/I/71YNDJVZ0uL._AC_UL640_FMwebp_QL65_.jpg 2x, https://m.media-amazon.com/images/I/71YNDJVZ0uL._AC_UL800_FMwebp_QL65_.jpg 2.5x, https://m.media-amazon.com/images/I/71YNDJVZ0uL._AC_UL960_FMwebp_QL65_.jpg 3x" alt="Sponsored Ad - Vintage Clock Abstract Iron Station Clock (8 x 8 inch, dial: 8 inch, Black)" data-image-index="1" data-image-load="" data-image-latency="s-product-image" data-image-source-density="1">
+  (Session info: chrome=104.0.5112.102)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'LAPTOP-KI46K08O', ip: '192.168.126.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a1b3bdb529ccee075b947833ad296d0b, clickElement {id=00c9cd62-1cc6-4991-ae25-29f63a7d0b6c}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\91935\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62103}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62103/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (a1b3bdb529ccee075b947833ad296d0b)] -> xpath: //span[@id='B01N6OOW52-amazons-choice-label']]
+Session ID: a1b3bdb529ccee075b947833ad296d0b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span id="B01N6OOW52-amazons-choice-label" class="a-badge-label" data-a-badge-color="sx-gulfstream" aria-hidden="true">...</span> is not clickable at point (513, 580). Other element would receive the click: <img class="s-image" src="https://m.media-amazon.com/images/I/71YNDJVZ0uL._AC_UL320_.jpg" srcset="https://m.media-amazon.com/images/I/71YNDJVZ0uL._AC_UL320_.jpg 1x, https://m.media-amazon.com/images/I/71YNDJVZ0uL._AC_UL480_FMwebp_QL65_.jpg 1.5x, https://m.media-amazon.com/images/I/71YNDJVZ0uL._AC_UL640_FMwebp_QL65_.jpg 2x, https://m.media-amazon.com/images/I/71YNDJVZ0uL._AC_UL800_FMwebp_QL65_.jpg 2.5x, https://m.media-amazon.com/images/I/71YNDJVZ0uL._AC_UL960_FMwebp_QL65_.jpg 3x" alt="Sponsored Ad - Vintage Clock Abstract Iron Station Clock (8 x 8 inch, dial: 8 inch, Black)" data-image-index="1" data-image-load="" data-image-latency="s-product-image" data-image-source-density="1">
+  (Session info: chrome=104.0.5112.102)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'LAPTOP-KI46K08O', ip: '192.168.126.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a1b3bdb529ccee075b947833ad296d0b, clickElement {id=00c9cd62-1cc6-4991-ae25-29f63a7d0b6c}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\91935\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62103}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62103/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (a1b3bdb529ccee075b947833ad296d0b)] -> xpath: //span[@id='B01N6OOW52-amazons-choice-label']]
+Session ID: a1b3bdb529ccee075b947833ad296d0b
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at com.pages.Amazon_HomePage.click_Product(Amazon_HomePage.java:61)
+at TodaysStepdefinations.Amazon_Stepdefination.user_able_to_click_the_particular_product(Amazon_Stepdefination.java:72)
+at ✽.User able to click the particular product(file:///C:/Users/91935/eclipse-workspace-Qo-box/DemoCommerce/CucumberDemoCommerce/src/test/java/com/test/resources/Amazon.feature:14)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:test_Runners.Amazon_Test@351d00c0]" started-at="2022-08-24T12:02:51 IST" name="tearDownClass" finished-at="2022-08-24T12:02:54 IST" duration-ms="2950" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- test_Runners.Amazon_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
