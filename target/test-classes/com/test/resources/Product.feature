@@ -19,5 +19,5 @@ Then User should be able to add the products to cart
 
 Examples:
 |url|ram|
-|https://demo.nopcommerce.com/|2 GB| 
+|https://demo.nopcommerce.com/|2 GB|
 
